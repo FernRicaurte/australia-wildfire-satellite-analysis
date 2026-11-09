@@ -2,7 +2,7 @@
 
 **Can NASA satellite measurements tell a high-confidence fire detection from a likely false alarm?**
 
-Team project, M.S. in Data Analytics, University of Central Florida.
+Team project for STA 6704 *Data Mining II*, M.S. in Data Analytics, University of Central Florida (Summer 2026).
 **Team:** Ryujin Bupp · Fernando Ricaurte · Hardik Polamarasetti
 
 `Python` · `scikit-learn` · `statsmodels` · `mlxtend` · `pandas` · `matplotlib` · `seaborn`
