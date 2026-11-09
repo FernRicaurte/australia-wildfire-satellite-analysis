@@ -13,7 +13,7 @@ Team project, M.S. in Data Analytics, University of Central Florida.
 
 | | |
 |---|---|
-| **Data** | 183,593 NASA MODIS active-fire detections over Australia, 2019–2020 |
+| **Data** | 183,593 NASA MODIS active-fire detections over Australia, October 2019 to January 2020 |
 | **Target** | `confidence` (0–100%), modeled two ways: as a continuous percentage, and as high (above 60%) vs. low |
 | **Methods** | Logistic and linear regression baselines, exhaustive feature selection, elastic net, GLMs with matched target distributions, PCA, K-Means |
 | **Best results** | Classification: **82% accuracy, ROC-AUC 0.88**. Regression: a Binomial GLM on the proportion raised **R² from 0.33 to 0.55** |
@@ -77,11 +77,11 @@ K-Means on the PCA components found **9 clusters** (silhouette 0.30 training, 0.
 |---|---|
 | [`Fire_Satellite_DataAnalysis_Code.ipynb`](Fire_Satellite_DataAnalysis_Code.ipynb) | Full analysis notebook with outputs: preprocessing, all models, PCA, clustering |
 | [`report/Fire_Satellite_Analysis_Report.pdf`](report/Fire_Satellite_Analysis_Report.pdf) | Written project report, including an executive summary |
+| [`fire_nrt_M6_96619.csv`](fire_nrt_M6_96619.csv) | Dataset: 183,593 detections, 14 columns |
 
 ## Reproduce
 
-1. Download `fire_nrt_M6_96619.csv` from the Kaggle dataset linked below and place it in the repository folder.
-2. Run:
+The dataset is included, so the notebook runs as is:
 
 ```bash
 pip install -r requirements.txt
